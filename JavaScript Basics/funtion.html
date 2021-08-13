@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Function</title>
+    </head>
+    <body>
+        <div>
+            <h1>Function</h1>
+            <script>  
+                let a = window.prompt("what is your age?");
+                let b = myFun(Number(a));
+                function myFun(a){
+                    return a+a;
+                }
+            </script>
+            <p id = "try">Something</p>
+            <button type="button" onclick="document.getElementById('try').innerHTML = b">Enter</button>
+        </div>
+        <div>
+            <h1>Arrow Function</h1>
+            <script>
+                x = () => {
+                    return a**2;
+                }
+                let c = x(b)
+            </script>
+            <p id="try2">Something</p>
+            <button type="button" onclick="document.getElementById('try2').innerHTML=c">Click</button>
+        </div>
+    </body>
+</html>

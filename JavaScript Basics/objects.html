@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Objects</title>
+    </head>
+    <body>
+        <h1>Objects</h1>
+        <p>Check Console for the Output</p>
+        <script>
+            let name = window.prompt("Enter name");
+            let lastname = window.prompt("Enter last name");
+            let age = window.prompt("Enter age");
+
+            const person = {
+                firstName : name,
+                lastName : lastname,
+                Age : age
+            }
+            console.log(person)
+            window.alert(person.firstName + " " + person.lastName + " " + person.Age)
+        </script>
+    </body>
+</html>
